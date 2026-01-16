@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8e9373cac31632106afd9f3ed40131e1" label="Custom Loan Request" max_length="40" name="x_918153_asset_l_0_custom_loan_request" text_index="true" type="collection">
+        <element label="利用者" max_length="32" name="u_requested_by" reference="sys_user" type="reference"/>
+        <element label="備品" max_length="32" name="u_equipment" reference="x_918153_asset_l_0_custom_equipment" type="reference"/>
+        <element choice="3" label="承認ステータス" max_length="40" name="u_approval_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="申請中" language="ja" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="承認済み" language="ja" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="却下" language="ja" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Active" max_length="40" name="active" type="string"/>
+        <element label="返却予定日" max_length="40" name="u_due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="u_equipment"/>
+        </index>
+        <index name="index2">
+            <element name="u_requested_by"/>
+        </index>
+    </element>
+</database>

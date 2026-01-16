@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <name>Target_x_918153_asset_l_0_custom_equipment</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>x_918153_asset_l_0_custom_equipment</path>
+        <run_business_rules>true</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 10:34:58</sys_created_on>
+        <sys_id>a6230423c3deb2106afd9f3ed4013112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target_x_918153_asset_l_0_custom_equipment</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Asset Data Import_etl_ihub">9a238cefc39eb2106afd9f3ed40131fc</sys_rte_eb_definition>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_a6230423c3deb2106afd9f3ed4013112</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 10:34:58</sys_updated_on>
+        <table>x_918153_asset_l_0_custom_equipment</table>
+    </sys_rte_eb_etl_entity>
+</record_update>

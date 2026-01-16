@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>listConfigId</name>
+        <page display_value="Asset Loan Mgt App">92db34af53d2f210e0e8a32c32eff2e9</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 14:42:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>92db34afc5d2f21097d57648927556d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_page_property_92db34afc5d2f21097d57648927556d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 14:42:43</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_918153_asset_l_0.92db34af53d2f210e0e8a32c32eff2e9.root.global.listConfigId</unique_name>
+        <value>33dbb4afc3d2f2106afd9f3ed4013151</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=92db34afc5d2f21097d57648927556d9"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>92db34afc5d2f21097d57648927556d9</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 14:42:43</sys_created_on>
+        <sys_id>37dbb4afc3d2f2106afd9f3ed4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 14:42:43</sys_updated_on>
+        <tablename>sys_ux_page_property</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

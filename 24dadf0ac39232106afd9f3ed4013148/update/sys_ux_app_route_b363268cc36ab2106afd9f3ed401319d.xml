@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Asset Loan Mgt App App Config">56db34af23d2f210ac1d827ea1b9dfe8</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Equipment Directory</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>equipment-directory</route_type>
+        <screen_type display_value="Equipment Directory">6363268cc36ab2106afd9f3ed4013198</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 11:32:09</sys_created_on>
+        <sys_id>b363268cc36ab2106afd9f3ed401319d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment Directory</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_app_route_b363268cc36ab2106afd9f3ed401319d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 11:32:09</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=b363268cc36ab2106afd9f3ed401319d"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>b363268cc36ab2106afd9f3ed401319d</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 11:32:09</sys_created_on>
+        <sys_id>3763268cc36ab2106afd9f3ed401319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 11:32:09</sys_updated_on>
+        <tablename>sys_ux_app_route</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

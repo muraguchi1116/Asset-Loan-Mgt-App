@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-09 12:14:38</sys_created_on>
+        <sys_id>d393f3cac31632106afd9f3ed4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_918153_asset_l_0_custom_loan_request.x_918153_asset_l_0.admin</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_security_acl display_value="x_918153_asset_l_0_custom_loan_request">9393f3cac31632106afd9f3ed4013150</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d393f3cac31632106afd9f3ed4013153</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-09 12:14:38</sys_updated_on>
+        <sys_user_role display_value="x_918153_asset_l_0.admin" name="x_918153_asset_l_0.admin">a0dadf0ac39232106afd9f3ed40131c5</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

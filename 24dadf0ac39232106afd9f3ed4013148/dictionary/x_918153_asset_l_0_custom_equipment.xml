@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="215b1f4ac39232106afd9f3ed4013142" label="Custom Equipment" max_length="40" name="x_918153_asset_l_0_custom_equipment" text_index="true" type="collection">
+        <element label="説明" max_length="1000" name="u_description" type="string"/>
+        <element choice="3" label="カテゴリ" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="その他" language="ja" sequence="3" value="others"/>
+                <element inactive_on_update="false" label="PC" language="ja" sequence="0" value="pc"/>
+                <element inactive_on_update="false" label="モニター" language="ja" sequence="1" value="monitor"/>
+                <element inactive_on_update="false" label="周辺機器" language="ja" sequence="2" value="peripheral_devices"/>
+            </choice>
+        </element>
+        <element label="名前" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="ステータス" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="利用可能" language="ja" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="貸出中" language="ja" sequence="1" value="on_loan"/>
+                <element inactive_on_update="false" label="修理中" language="ja" sequence="2" value="under_repair"/>
+            </choice>
+        </element>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="画像" max_length="40" name="u_image" type="user_image"/>
+    </element>
+</database>

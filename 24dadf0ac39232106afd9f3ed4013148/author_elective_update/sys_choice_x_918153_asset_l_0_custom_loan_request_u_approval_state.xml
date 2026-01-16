@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_approval_state" table="x_918153_asset_l_0_custom_loan_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_approval_state</element>
+            <name>x_918153_asset_l_0_custom_loan_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-09 12:55:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_approval_state</sys_name>
+            <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+            <sys_update_name>sys_choice_x_918153_asset_l_0_custom_loan_request_u_approval_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-09 12:55:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>申請中</label>
+            <language>ja</language>
+            <name>x_918153_asset_l_0_custom_loan_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-09 12:55:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-09 12:55:32</sys_updated_on>
+            <value>requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>承認済み</label>
+            <language>ja</language>
+            <name>x_918153_asset_l_0_custom_loan_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-09 12:55:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-09 12:55:32</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>却下</label>
+            <language>ja</language>
+            <name>x_918153_asset_l_0_custom_loan_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-13 14:33:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-13 14:33:43</sys_updated_on>
+            <value>rejected</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

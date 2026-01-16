@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="DELETE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list/>
+        <name>Asset Loan Card Configuration</name>
+        <order>100</order>
+        <predicate_bundle display_value="Asset Loan Card Configuration">bf6c028cc3e6b2106afd9f3ed40131fa</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 09:56:55</sys_created_on>
+        <sys_id>05ac468cc3e6b2106afd9f3ed40131f4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Asset Loan Card Configuration</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_05ac468cc3e6b2106afd9f3ed40131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 12:47:55</sys_updated_on>
+        <table>x_918153_asset_l_0_custom_equipment</table>
+        <ux_template display_value="Asset Loan Equipment Card Template">753d82ccc3e6b2106afd9f3ed40131a9</ux_template>
+    </sys_ux_composite_data_template_predicate>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</application>
+        <file_path/>
+        <instance_id>5cc483441b0a7594699443f4bd4bcb3f</instance_id>
+        <instance_name>dev189157</instance_name>
+        <name>sys_ux_composite_data_template_predicate_05ac468cc3e6b2106afd9f3ed40131f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate"><sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE"><active>true</active><condition/><custom_condition/><custom_field_list/><field_list/><name>Asset Loan Card Configuration</name><order>100</order><predicate_bundle display_value="Asset Loan Card Configuration">bf6c028cc3e6b2106afd9f3ed40131fa</predicate_bundle><required_roles/><sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 09:56:55</sys_created_on><sys_id>05ac468cc3e6b2106afd9f3ed40131f4</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Asset Loan Card Configuration</sys_name><sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package><sys_policy/><sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope><sys_update_name>sys_ux_composite_data_template_predicate_05ac468cc3e6b2106afd9f3ed40131f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 12:47:55</sys_updated_on><table>x_918153_asset_l_0_custom_equipment</table><ux_template display_value="Asset Loan Equipment Card Template">753d82ccc3e6b2106afd9f3ed40131a9</ux_template></sys_ux_composite_data_template_predicate></record_update>]]></payload>
+        <payload_hash>-401658661</payload_hash>
+        <record_name>Asset Loan Card Configuration</record_name>
+        <reverted_from/>
+        <source>60dadf0ac39232106afd9f3ed40131c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 12:47:55</sys_created_on>
+        <sys_id>21c472c8c3eab2106afd9f3ed4013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc1b2bfdf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 12:47:55</sys_updated_on>
+        <type>EVAM View Config</type>
+        <update_guid>e1c43e88a8eab210ee8584c66d6b08d3</update_guid>
+        <update_guid_history>e1c43e88a8eab210ee8584c66d6b08d3:-401658661,cf34fe08ebeab21025d59a122426d9c6:-1288776137,b7437ec046eab2109a1c2ae738600396:631861848,c4033a84c5eab210a731fdcc22936148:-1288776137,3b9f6240e4eab210b68c57dfd7cfc793:541891227,286b668864aab21079f81c1a2a948361:514454775,6cad8ecc99e6b21045f2e5a63ca304b2:-401658661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 13:31:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_template_predicate">sys_ux_composite_data_template_predicate</sys_db_object>
+        <sys_id>51acb2ae19484832a8dba44fd770dac1</sys_id>
+        <sys_metadata>05ac468cc3e6b2106afd9f3ed40131f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset Loan Card Configuration</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_scope_delete display_value="">03c9054506574d6284c10e69aef1c9d1</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_template_predicate_05ac468cc3e6b2106afd9f3ed40131f4</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_template_predicate_05ac468cc3e6b2106afd9f3ed40131f4">21c472c8c3eab2106afd9f3ed4013165</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 13:31:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

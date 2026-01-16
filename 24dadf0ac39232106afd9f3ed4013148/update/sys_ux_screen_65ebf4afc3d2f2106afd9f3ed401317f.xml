@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Asset Loan Mgt App App Config">56db34af23d2f210ac1d827ea1b9dfe8</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings/>
+        <macroponent display_value="Custom Loan Request Record Page">5debf4afc3d2f2106afd9f3ed4013177</macroponent>
+        <macroponent_config/>
+        <name>Custom Loan Request Record Page</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=x_918153_asset_l_0_custom_loan_request</screen_condition>
+        <screen_type display_value="レコード">52db34af3fd2f210c60c4749b31e35e0</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 14:42:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>65ebf4afc3d2f2106afd9f3ed401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Loan Request Record Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_screen_65ebf4afc3d2f2106afd9f3ed401317f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 14:42:50</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=65ebf4afc3d2f2106afd9f3ed401317f"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>65ebf4afc3d2f2106afd9f3ed401317f</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 14:42:50</sys_created_on>
+        <sys_id>a9ebf4afc3d2f2106afd9f3ed4013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 14:42:50</sys_updated_on>
+        <tablename>sys_ux_screen</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

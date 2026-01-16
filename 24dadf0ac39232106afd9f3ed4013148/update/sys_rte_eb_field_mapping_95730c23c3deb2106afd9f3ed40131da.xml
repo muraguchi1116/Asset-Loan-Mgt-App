@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="名前 (u_name)">56230423c3deb2106afd9f3ed401310c</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 10:36:15</sys_created_on>
+        <sys_id>95730c23c3deb2106afd9f3ed40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Asset Data Import_etl_ihub">9a238cefc39eb2106afd9f3ed40131fc</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_SOURCE_TEMP_MAPPING">55730c23c3deb2106afd9f3ed40131c9</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_95730c23c3deb2106afd9f3ed40131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 10:36:15</sys_updated_on>
+        <target_sys_rte_eb_field display_value="名前 (u_name)_sn_ihub_target_u_name">41730c23c3deb2106afd9f3ed40131b1</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

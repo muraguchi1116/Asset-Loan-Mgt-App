@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="DELETE">
+        <dataset display_value="Asset Loan EVAM Definition">0c82c600c3e6b2106afd9f3ed40131f7</dataset>
+        <datasource display_value="">04130640c3e6b2106afd9f3ed4013133</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 09:39:57</sys_created_on>
+        <sys_id>44c98a44c3a6b2106afd9f3ed4013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_44c98a44c3a6b2106afd9f3ed4013108</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 09:39:57</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</application>
+        <file_path/>
+        <instance_id>5cc483441b0a7594699443f4bd4bcb3f</instance_id>
+        <instance_name>dev189157</instance_name>
+        <name>sys_ux_composite_data_m2m_datasource_44c98a44c3a6b2106afd9f3ed4013108</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource"><sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE"><dataset display_value="Asset Loan EVAM Definition">0c82c600c3e6b2106afd9f3ed40131f7</dataset><datasource display_value="">04130640c3e6b2106afd9f3ed4013133</datasource><sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 09:39:57</sys_created_on><sys_id>44c98a44c3a6b2106afd9f3ed4013108</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package><sys_policy/><sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope><sys_update_name>sys_ux_composite_data_m2m_datasource_44c98a44c3a6b2106afd9f3ed4013108</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 09:39:57</sys_updated_on></sys_ux_composite_data_m2m_datasource></record_update>]]></payload>
+        <payload_hash>-441329760</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>60dadf0ac39232106afd9f3ed40131c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 09:39:57</sys_created_on>
+        <sys_id>ccc98a44c3a6b2106afd9f3ed401310a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc106a8540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 09:39:57</sys_updated_on>
+        <type>EVAM Datasource M2M</type>
+        <update_guid>44c98a448ba6b2107eed29904a2bbc0a</update_guid>
+        <update_guid_history>44c98a448ba6b2107eed29904a2bbc0a:-441329760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 14:32:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_m2m_datasource">sys_ux_composite_data_m2m_datasource</sys_db_object>
+        <sys_id>90e65136b3af477c89911497b7e8b010</sys_id>
+        <sys_metadata>44c98a44c3a6b2106afd9f3ed4013108</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_scope_delete display_value="">03c9054506574d6284c10e69aef1c9d1</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_44c98a44c3a6b2106afd9f3ed4013108</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_m2m_datasource_44c98a44c3a6b2106afd9f3ed4013108">ccc98a44c3a6b2106afd9f3ed401310a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 14:32:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

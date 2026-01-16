@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c838c23c3deb2106afd9f3ed401312c" extends="sys_import_set_row" label="Asset Data Import" max_length="40" name="x_918153_asset_l_0_ihub_import_90a2c4efc39eb2106afd9f3ed4013166" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ステータス (u_status)" label="ステータス (u_status)" max_length="40" name="u_rplcd_n_ascii_121776367" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=名前 (u_name)" label="名前 (u_name)" max_length="40" name="u_rplcd_n_ascii_1321242189" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=カテゴリ (u_category)" label="カテゴリ (u_category)" max_length="40" name="u_rplcd_n_ascii_268755613" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=説明 (u_description)" label="説明 (u_description)" max_length="40" name="u_rplcd_n_ascii_2059217684" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=画像URL (u_image)" label="画像URL (u_image)" max_length="40" name="u_rplcd_n_ascii_622022072" type="string"/>
+    </element>
+</database>

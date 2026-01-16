@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles>[]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "dec0b89ec87f44e66126f8cc78e53891",
+            "type": "MACROPONENT"
+        },
+        "elementId": "_______1",
+        "elementLabel": "データセット 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "cardHeight": {
+                "type": "JSON_LITERAL",
+                "value": "sm"
+            },
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "data": {
+                "binding": {
+                    "address": [
+                        "evam_data_resource_1",
+                        "compositeDataViews"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "dataBrokerIsLoading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "defaultView": {
+                "type": "JSON_LITERAL",
+                "value": "list"
+            },
+            "emptyMessage": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "No content to display"
+                }
+            },
+            "emptyMessageBody": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Contact your ServiceNow administrator for more information."
+                }
+            },
+            "emptyStateHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "2"
+            },
+            "hideFilter": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePaginationControls": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "maxCardsPerRow": {
+                "type": "JSON_LITERAL",
+                "value": "4"
+            },
+            "minCardWidth": {
+                "type": "JSON_LITERAL",
+                "value": "150"
+            },
+            "title": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "EVAM定義サンプル"
+                }
+            },
+            "titleHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "titleStyleVariant": {
+                "type": "JSON_LITERAL",
+                "value": "header-tertiary"
+            },
+            "toggleView": {
+                "type": "JSON_LITERAL",
+                "value": true
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "e6af35d9dbb810106b3982c9689619e5",
+            "type": "COMPOSITE"
+        },
+        "elementId": "evam_data_resource_1",
+        "elementLabel": "EVAM Data Resource 1",
+        "eventMappings": [],
+        "inputValues": {
+            "evamDefinitionId": {
+                "type": "JSON_LITERAL",
+                "value": "0c82c600c3e6b2106afd9f3ed40131f7"
+            },
+            "filterPreference": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "pageCursor": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "pageNumber": {
+                "type": "JSON_LITERAL",
+                "value": "0"
+            },
+            "pageSize": {
+                "type": "JSON_LITERAL",
+                "value": "20"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "elementId": "look_up_multiple_records_1",
+        "elementLabel": "Look up multiple records 1",
+        "eventMappings": [],
+        "inputValues": {
+            "encodedQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_918153_asset_l_0_custom_equipment"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "_______1"
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>デフォルト</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ {
+  "message" : "Contact your ServiceNow administrator for more information.",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "EVAM定義サンプル",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "No content to display",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[]</state_properties>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 11:32:10</sys_created_on>
+        <sys_id>376362ccc36ab2106afd9f3ed40131a8</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>デフォルト</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_macroponent_376362ccc36ab2106afd9f3ed40131a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 14:50:08</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=376362ccc36ab2106afd9f3ed40131a8"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>376362ccc36ab2106afd9f3ed40131a8</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 11:32:10</sys_created_on>
+        <sys_id>736362ccc36ab2106afd9f3ed40131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 11:32:10</sys_updated_on>
+        <tablename>sys_ux_macroponent</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

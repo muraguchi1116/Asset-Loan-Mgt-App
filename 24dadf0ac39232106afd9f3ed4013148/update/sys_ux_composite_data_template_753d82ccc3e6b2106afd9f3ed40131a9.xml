@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Asset Loan Equipment Card Template</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 09:56:28</sys_created_on>
+        <sys_id>753d82ccc3e6b2106afd9f3ed40131a9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Asset Loan Equipment Card Template</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_753d82ccc3e6b2106afd9f3ed40131a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 14:47:17</sys_updated_on>
+        <template>{&#13;
+    "component": "sn-content-item-card",&#13;
+    "props": {&#13;
+        "staticValues": {&#13;
+            "imageType": {&#13;
+                "value": "image"&#13;
+            }&#13;
+        },&#13;
+        "mappings": {&#13;
+            "title": "u_name",&#13;
+            "subtitle": "u_category",&#13;
+            "tertiaryValue": "number",&#13;
+            "image": "u_image"&#13;
+        }&#13;
+    },&#13;
+    "actionMappings": {&#13;
+        "clickAction": "open_request_producer"&#13;
+    }&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

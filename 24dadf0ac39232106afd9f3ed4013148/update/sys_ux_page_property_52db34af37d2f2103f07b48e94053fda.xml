@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Asset Loan Mgt App">92db34af53d2f210e0e8a32c32eff2e9</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 14:42:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>52db34af37d2f2103f07b48e94053fda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_page_property_52db34af37d2f2103f07b48e94053fda</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 14:42:39</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_918153_asset_l_0.92db34af53d2f210e0e8a32c32eff2e9.root.globalSearchDataConfigId</unique_name>
+        <value>5adb34af16d2f210732f53e08a3bdee1</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=52db34af37d2f2103f07b48e94053fda"/>
+</record_update>
