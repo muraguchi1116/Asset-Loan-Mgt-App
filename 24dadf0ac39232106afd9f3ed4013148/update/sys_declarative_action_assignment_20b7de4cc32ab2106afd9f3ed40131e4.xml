@@ -9,18 +9,36 @@
         <animate_icon>false</animate_icon>
         <button_position>right</button_position>
         <button_type>primary</button_type>
-        <client_action display_value="navigation">513d08c073211010c342d5fdbdf6a76c</client_action>
+        <client_action/>
         <client_conditions/>
         <client_conditions_on_fields/>
-        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <client_script><![CDATA[(function(action) {
+    console.log('Action triggered!', action);
+    
+    var recordProducerSysId = '9b61198fc35a32106afd9f3ed40131e0';
+    
+    var record = action.record || action.data || action.payload || {};
+    var assetSysId = record.sys_id;
+    
+    console.log('Asset ID:', assetSysId);
+    
+    if (assetSysId) {
+        var url = '/sp?id=sc_cat_item&sys_id=' + recordProducerSysId + '&sysparm_asset_id=' + assetSysId;
+        console.log('Navigating to:', url);
+        window.location.href = url;
+    } else {
+        console.error('No asset ID found');
+        alert('資産情報が取得できませんでした');
+    }
+})(action);]]></client_script>
         <confirmation_message/>
         <confirmation_required>false</confirmation_required>
         <create_access>false</create_access>
         <declarative_action_render_mode/>
-        <declarative_action_type>uxf_client_action</declarative_action_type>
+        <declarative_action_type>client_script</declarative_action_type>
         <delete_access>false</delete_access>
         <dependency/>
-        <description/>
+        <description>レコードプロデューサー画面を開く</description>
         <design_icon/>
         <dynamic_record_condition/>
         <dynamic_script_condition/>
@@ -58,7 +76,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>20b7de4cc32ab2106afd9f3ed40131e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>open_request_producer</sys_name>
         <sys_overrides/>
         <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
@@ -66,7 +84,7 @@
         <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
         <sys_update_name>sys_declarative_action_assignment_20b7de4cc32ab2106afd9f3ed40131e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-15 10:48:05</sys_updated_on>
+        <sys_updated_on>2026-01-17 13:46:09</sys_updated_on>
         <table>global</table>
         <tooltip/>
         <ui_component/>

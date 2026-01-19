@@ -10,7 +10,7 @@
             "id": "dec0b89ec87f44e66126f8cc78e53891",
             "type": "MACROPONENT"
         },
-        "elementId": "_______1",
+        "elementId": "DataSet_1",
         "elementLabel": "データセット 1",
         "eventMappings": [],
         "isHidden": {
@@ -85,7 +85,7 @@
                 "value": {
                     "code": null,
                     "comment": "",
-                    "message": "EVAM定義サンプル"
+                    "message": "EVAMサンプル"
                 }
             },
             "titleHeadingLevel": {
@@ -107,38 +107,6 @@
 ]</composition>
         <da_relay_models/>
         <data>[
-    {
-        "definition": {
-            "id": "e6af35d9dbb810106b3982c9689619e5",
-            "type": "COMPOSITE"
-        },
-        "elementId": "evam_data_resource_1",
-        "elementLabel": "EVAM Data Resource 1",
-        "eventMappings": [],
-        "inputValues": {
-            "evamDefinitionId": {
-                "type": "JSON_LITERAL",
-                "value": "0c82c600c3e6b2106afd9f3ed40131f7"
-            },
-            "filterPreference": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageCursor": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageNumber": {
-                "type": "JSON_LITERAL",
-                "value": "0"
-            },
-            "pageSize": {
-                "type": "JSON_LITERAL",
-                "value": "20"
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
     {
         "definition": {
             "id": "b997a84053021010cbc2ddeeff7b1228",
@@ -186,6 +154,38 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "e6af35d9dbb810106b3982c9689619e5",
+            "type": "COMPOSITE"
+        },
+        "elementId": "evam_data_resource_1",
+        "elementLabel": "EVAM Data Resource 1",
+        "eventMappings": [],
+        "inputValues": {
+            "evamDefinitionId": {
+                "type": "JSON_LITERAL",
+                "value": "0c82c600c3e6b2106afd9f3ed40131f7"
+            },
+            "filterPreference": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "pageCursor": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "pageNumber": {
+                "type": "JSON_LITERAL",
+                "value": "0"
+            },
+            "pageSize": {
+                "type": "JSON_LITERAL",
+                "value": "20"
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
@@ -203,13 +203,33 @@
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{}</internal_event_mappings>
+        <internal_event_mappings>{
+    "MACROPONENT_READY": [
+        {
+            "broker": null,
+            "clientScript": {
+                "payload": {
+                    "type": "JSON_LITERAL",
+                    "value": {}
+                },
+                "sysId": "bcc5c5f0c3a2b2106afd9f3ed401314b"
+            },
+            "clientTransformScript": "",
+            "conditional": null,
+            "declarativeAction": null,
+            "event": null,
+            "operation": null,
+            "targetId": "cftpUPeehhaaAUeeddjjjeeeFOxpqOueehhw",
+            "type": "CLIENT_SCRIPT"
+        }
+    ]
+}</internal_event_mappings>
         <layout>{
     "default": {
         "children": null,
         "items": [
             {
-                "element_id": "_______1"
+                "element_id": "DataSet_1"
             }
         ],
         "root": null,
@@ -239,13 +259,29 @@
         <macroponent_dependencies/>
         <name>デフォルト</name>
         <output_prop_mapping/>
-        <props>[]</props>
+        <props>[
+    {
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "id": "catItemSysId",
+        "label": "catItemSysId",
+        "mandatory": false,
+        "name": "catItemSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": {
+            "translatable": false
+        },
+        "valueType": "string"
+    }
+]</props>
         <required_translations>[ {
   "message" : "Contact your ServiceNow administrator for more information.",
   "code" : "",
   "comment" : ""
 }, {
-  "message" : "EVAM定義サンプル",
+  "message" : "EVAMサンプル",
   "code" : "",
   "comment" : ""
 }, {
@@ -264,14 +300,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-15 11:32:10</sys_created_on>
         <sys_id>376362ccc36ab2106afd9f3ed40131a8</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name>デフォルト</sys_name>
         <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
         <sys_update_name>sys_ux_macroponent_376362ccc36ab2106afd9f3ed40131a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-15 14:50:08</sys_updated_on>
+        <sys_updated_on>2026-01-17 14:25:58</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=376362ccc36ab2106afd9f3ed40131a8"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

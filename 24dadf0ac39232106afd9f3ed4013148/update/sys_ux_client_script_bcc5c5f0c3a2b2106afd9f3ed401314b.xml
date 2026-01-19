@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="デフォルト">376362ccc36ab2106afd9f3ed40131a8</macroponent>
+        <name>Open Record Producer</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function handler({api}) {
+    console.log('===== Client script loaded! =====');
+    console.log('API context:', api.context);
+    console.log('API context.host:', api.context?.host);
+    
+    try {
+        console.log('Searching for buttons...');
+        
+        // api.context.hostを取得
+        const host = api.context?.host;
+        console.log('Host element:', host);
+        
+        if (host && host.querySelectorAll) {
+            console.log('Host has querySelectorAll');
+            const buttons = host.querySelectorAll('now-button, button, [role="button"]');
+            console.log('Buttons found:', buttons.length);
+            
+            buttons.forEach((button, index) => {
+                const text = button.textContent || '';
+                console.log('Button ' + index + ':', text.trim());
+            });
+        } else {
+            console.error('Host is null or does not have querySelectorAll');
+            console.log('Trying window.document instead...');
+            
+            const buttons = window.document.querySelectorAll('now-button, button');
+            console.log('Buttons from window.document:', buttons.length);
+        }
+        
+    } catch (err) {
+        console.error('Error:', err);
+        console.error('Error stack:', err.stack);
+    }
+    
+    console.log('===== Script finished =====');
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 14:00:34</sys_created_on>
+        <sys_id>bcc5c5f0c3a2b2106afd9f3ed401314b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Open Record Producer</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_client_script_bcc5c5f0c3a2b2106afd9f3ed401314b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 14:34:59</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

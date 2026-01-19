@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_376362ccc36ab2106afd9f3ed40131a8</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>ページまたは URL を開く Relay (デフォルト)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "ルーティングタイプ",
+        "name": "route",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "ルーティングフィールド",
+        "name": "fields",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "オプションのパラメーター",
+        "name": "params",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "interfaceApiName": "global.route",
+        "label": "ブラウザ履歴から以前の URL を削除",
+        "name": "redirect",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "バックグラウンドでレコードをロードするオプション",
+        "fieldType": "boolean",
+        "interfaceApiName": "global.route",
+        "label": "バックグラウンドでロード (詳細)",
+        "name": "passiveNavigation",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "タブの名前とブラウザタイトル",
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "タイトル (詳細)",
+        "name": "title",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "新しいレコードの複数のインスタンスを有効にするために使用するルート構成のフィールドを指定します",
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "マルチインスタンスフィールド (詳細)",
+        "name": "multiInstField",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "「current」と入力すると、サブタブにレコードが開きます",
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "サブナビゲーションルーティング (詳細)",
+        "name": "targetRoute",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "外部 URL にリンクするためのオブジェクト",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "外部 URL オブジェクト",
+        "name": "external",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "target": {
+                        "description": "Target window to open. Default is _blank",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL to open",
+                        "type": "string"
+                    }
+                },
+                "title": "External URL Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "その他のナビゲーションオプションのオブジェクト",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "ナビゲーションオプションオブジェクト",
+        "name": "navigationOptions",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "navigateExternal": {
+                        "description": "Enable external navigation",
+                        "type": "boolean"
+                    },
+                    "targetWindowRef": {
+                        "description": "Target window opened by action dispatcher",
+                        "type": "object"
+                    },
+                    "windowOptions": {
+                        "description": "Target and windowOptions with which window.open to be called. Default values are _blank and emptyString",
+                        "type": "json"
+                    }
+                },
+                "title": "Navigation Options Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 09:02:11</sys_created_on>
+        <sys_id>59a3d03cc36e72106afd9f3ed4013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ページまたは URL を開く Relay (デフォルト)</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_event_59a3d03cc36e72106afd9f3ed4013197</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 09:02:11</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=59a3d03cc36e72106afd9f3ed4013197"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>59a3d03cc36e72106afd9f3ed4013197</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 09:02:11</sys_created_on>
+        <sys_id>5644543cc36e72106afd9f3ed4013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 09:02:11</sys_updated_on>
+        <tablename>sys_ux_event</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</application>
+        <file_path/>
+        <instance_id>5cc483441b0a7594699443f4bd4bcb3f</instance_id>
+        <instance_name>dev189157</instance_name>
+        <name>sys_ux_event_59a3d03cc36e72106afd9f3ed4013197</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>NAV_ITEM_SELECTED_RELAY_376362ccc36ab2106afd9f3ed40131a8</event_name><explicit_api_name/><interfaces/><label>ページまたは URL を開く Relay (デフォルト)</label><props>[
+    {
+        "defaultValue": null,
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "ルーティングタイプ",
+        "name": "route",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "ルーティングフィールド",
+        "name": "fields",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "オプションのパラメーター",
+        "name": "params",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "interfaceApiName": "global.route",
+        "label": "ブラウザ履歴から以前の URL を削除",
+        "name": "redirect",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "バックグラウンドでレコードをロードするオプション",
+        "fieldType": "boolean",
+        "interfaceApiName": "global.route",
+        "label": "バックグラウンドでロード (詳細)",
+        "name": "passiveNavigation",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "タブの名前とブラウザタイトル",
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "タイトル (詳細)",
+        "name": "title",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "新しいレコードの複数のインスタンスを有効にするために使用するルート構成のフィールドを指定します",
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "マルチインスタンスフィールド (詳細)",
+        "name": "multiInstField",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "「current」と入力すると、サブタブにレコードが開きます",
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "サブナビゲーションルーティング (詳細)",
+        "name": "targetRoute",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "外部 URL にリンクするためのオブジェクト",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "外部 URL オブジェクト",
+        "name": "external",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "target": {
+                        "description": "Target window to open. Default is _blank",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL to open",
+                        "type": "string"
+                    }
+                },
+                "title": "External URL Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "その他のナビゲーションオプションのオブジェクト",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "ナビゲーションオプションオブジェクト",
+        "name": "navigationOptions",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "navigateExternal": {
+                        "description": "Enable external navigation",
+                        "type": "boolean"
+                    },
+                    "targetWindowRef": {
+                        "description": "Target window opened by action dispatcher",
+                        "type": "object"
+                    },
+                    "windowOptions": {
+                        "description": "Target and windowOptions with which window.open to be called. Default values are _blank and emptyString",
+                        "type": "json"
+                    }
+                },
+                "title": "Navigation Options Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props><required_translations/><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-17 09:02:11</sys_created_on><sys_id>59a3d03cc36e72106afd9f3ed4013197</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ページまたは URL を開く Relay (デフォルト)</sys_name><sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package><sys_policy/><sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope><sys_update_name>sys_ux_event_59a3d03cc36e72106afd9f3ed4013197</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-17 09:02:11</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=59a3d03cc36e72106afd9f3ed4013197"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>59a3d03cc36e72106afd9f3ed4013197</documentkey><fieldname>description</fieldname><language>ja</language><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-17 09:02:11</sys_created_on><sys_id>5644543cc36e72106afd9f3ed4013193</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-17 09:02:11</sys_updated_on><tablename>sys_ux_event</tablename><value/></sys_translated_text></record_update>]]></payload>
+        <payload_hash>-962873151</payload_hash>
+        <record_name>ページまたは URL を開く Relay (デフォルト)</record_name>
+        <reverted_from/>
+        <source>dde07318c32632106afd9f3ed40131a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 09:02:11</sys_created_on>
+        <sys_id>da44543cc36e72106afd9f3ed4013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bcb30cb060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 09:02:11</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>9244543c8f6e7210468bcc90a6600994</update_guid>
+        <update_guid_history>9244543c8f6e7210468bcc90a6600994:-962873151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 10:39:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>31c8a2f360354d3c8ece416b1811fb24</sys_id>
+        <sys_metadata>59a3d03cc36e72106afd9f3ed4013197</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ページまたは URL を開く Relay (デフォルト)</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_scope_delete display_value="">03c9054506574d6284c10e69aef1c9d1</sys_scope_delete>
+        <sys_update_name>sys_ux_event_59a3d03cc36e72106afd9f3ed4013197</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_59a3d03cc36e72106afd9f3ed4013197">da44543cc36e72106afd9f3ed4013194</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 10:39:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

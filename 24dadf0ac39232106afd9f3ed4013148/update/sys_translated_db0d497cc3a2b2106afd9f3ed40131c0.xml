@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>label</element>
+        <id/>
+        <label>NOW_DATA_SET_ROW_CLICKED</label>
+        <language>ja</language>
+        <name>sys_ux_event</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 13:10:12</sys_created_on>
+        <sys_id>db0d497cc3a2b2106afd9f3ed40131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOW_DATA_SET_ROW_CLICKED</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_translated_db0d497cc3a2b2106afd9f3ed40131c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 13:10:12</sys_updated_on>
+        <value>NOW_DATA_SET_ROW_CLICKED</value>
+    </sys_translated>
+</record_update>

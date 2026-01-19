@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description>Data set row clicked event</description>
+        <event_name>NOW_DATA_SET_ROW_CLICKED</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>NOW_DATA_SET_ROW_CLICKED</label>
+        <props/>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 13:14:08</sys_created_on>
+        <sys_id>0abd0dbcc3a2b2106afd9f3ed4013159</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOW_DATA_SET_ROW_CLICKED</sys_name>
+        <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
+        <sys_update_name>sys_ux_event_0abd0dbcc3a2b2106afd9f3ed4013159</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 13:14:08</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=0abd0dbcc3a2b2106afd9f3ed4013159"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0abd0dbcc3a2b2106afd9f3ed4013159</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-17 13:14:08</sys_created_on>
+        <sys_id>4dfdc1fcc3a2b2106afd9f3ed4013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-17 13:14:08</sys_updated_on>
+        <tablename>sys_ux_event</tablename>
+        <value>Data set row clicked event</value>
+    </sys_translated_text>
+</record_update>

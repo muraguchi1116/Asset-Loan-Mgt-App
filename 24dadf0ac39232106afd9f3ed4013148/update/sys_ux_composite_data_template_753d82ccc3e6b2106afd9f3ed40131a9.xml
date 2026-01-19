@@ -6,32 +6,51 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-15 09:56:28</sys_created_on>
         <sys_id>753d82ccc3e6b2106afd9f3ed40131a9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Asset Loan Equipment Card Template</sys_name>
         <sys_package display_value="Asset Loan Mgt App" source="x_918153_asset_l_0">24dadf0ac39232106afd9f3ed4013148</sys_package>
         <sys_policy/>
         <sys_scope display_value="Asset Loan Mgt App">24dadf0ac39232106afd9f3ed4013148</sys_scope>
         <sys_update_name>sys_ux_composite_data_template_753d82ccc3e6b2106afd9f3ed40131a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-15 14:47:17</sys_updated_on>
+        <sys_updated_on>2026-01-17 14:40:35</sys_updated_on>
         <template>{&#13;
-    "component": "sn-content-item-card",&#13;
-    "props": {&#13;
-        "staticValues": {&#13;
-            "imageType": {&#13;
-                "value": "image"&#13;
-            }&#13;
-        },&#13;
-        "mappings": {&#13;
-            "title": "u_name",&#13;
-            "subtitle": "u_category",&#13;
-            "tertiaryValue": "number",&#13;
-            "image": "u_image"&#13;
-        }&#13;
-    },&#13;
-    "actionMappings": {&#13;
-        "clickAction": "open_request_producer"&#13;
-    }&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+		"imageType": {&#13;
+			"translatable": false,&#13;
+			"key": "image"&#13;
+		},&#13;
+		"detailLabelOne": {&#13;
+			"translatable": true,&#13;
+			"key": "Status"&#13;
+		},&#13;
+		"detailLabelTwo": {&#13;
+			"translatable": true,&#13;
+			"key": "Category"&#13;
+		},&#13;
+		"detailLabelThree": {&#13;
+			"translatable": true,&#13;
+			"key": "Description"&#13;
+		},&#13;
+		"showCardShadow": {&#13;
+			"translatable": false,&#13;
+			"key": true&#13;
+		},&#13;
+		"cardLabel": {&#13;
+			"translatable": true,&#13;
+			"key": "Equipment Card"&#13;
+		}&#13;
+	},&#13;
+	"mappings": {&#13;
+		"highlightedHeaderLabel": "number",&#13;
+		"titleLabel": "u_name",&#13;
+		"imageURL": "u_image",&#13;
+		"subtitle": "u_category",&#13;
+		"detailValueOne": "u_status",&#13;
+		"detailValueTwo": "u_category",&#13;
+		"detailValueThree": "u_description"&#13;
+	}&#13;
 }</template>
     </sys_ux_composite_data_template>
 </record_update>
